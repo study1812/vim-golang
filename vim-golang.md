@@ -126,6 +126,77 @@ vim /opt/go/src/github.com/study1812/test.go
 
 
 
+https://github.com/fatih/vim-go-tutorial
+
+go get github.com/fatih/vim-go-tutorial
+
+vim /opt/go/src/github.com/fatih/vim-go-tutorial/main.go
+
+
+######  运行程序
+
+运行 程序
+
+运行当前 .go 文件
+
+:GoRun %
+
+运行当前package 
+
+:GoRun
+
+##### 编译程序
+
+:GoBuild
+
+没有创建二进制文件；您可以调用：gobuild多次，而不会污染您的工作区。
+
+它会自动CD到源程序包的目录中
+
+它分析任何错误并将其显示在快速修复列表中
+
+它会自动检测gopath并在需要时对其进行修改（检测诸如gb、godeps等项目）。
+
+如果在VIM 8.0.XXX或NEOVIM中使用，则运行异步
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
